@@ -42,7 +42,7 @@ runs:
   using: composite
   steps:
     - name: Connect to server
-      uses: darklabsbr/ssh-action@v1
+      uses: darklabsbr/ssh-action@v1.1
       with:
         ssh_host: ${{ inputs.ssh_host }}
         ssh_user: ${{ inputs.ssh_user }}
